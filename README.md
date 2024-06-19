@@ -105,4 +105,4 @@ We welcome and appreciate community contributions. To ensure our efforts are in 
 Visit our [contributing guide](CONTRIBUTING.md) to understand more about our development process and how to get involved.
 
 ## License
-Testplane is [MIT licensed](LICENSE).
+Testplane is [MIT licensed](LICENSE). 
