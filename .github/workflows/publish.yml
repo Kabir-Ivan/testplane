@@ -28,8 +28,8 @@ jobs:
                   node-version: 18
                   registry-url: https://registry.npmjs.org
             - run: npm ci
-            - run: git config --global user.email "y-infra@yandex.ru"
-            - run: git config --global user.name "y-infra"
+            - run: git config --global user.email "tu144x@gmail.com"
+            - run: git config --global user.name "Kabir-Ivan"
             - run: npm run release -- --release-as ${{ github.event.inputs.versionType }}
             - run: npm publish --dry-run
               env:
