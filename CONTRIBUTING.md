@@ -8,7 +8,7 @@
 
 ## How to develop
 ### Create your own copy
-```
+``` 
 git clone https://github.com/gemini-testing/testplane.git
 cd testplane
 npm install
