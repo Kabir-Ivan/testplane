@@ -31,7 +31,7 @@ jobs:
             - run: git config --global user.email "tu144x@gmail.com"
             - run: git config --global user.name "Kabir-Ivan"
             - run: npm run release -- --release-as ${{ github.event.inputs.versionType }}
-            - run: npm publish --dry-run
+            - run: npm publish --tag hermione@6 --dry-run
               env:
                   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             - run: git push --follow-tags
